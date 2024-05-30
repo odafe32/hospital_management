@@ -1,3 +1,12 @@
+CREATING A HOSPITAL MANAGEMENT WEBSITE
+
+**project-folder
+  ├── index.html
+  ├── styles.css
+  └── scripts.js**
+
+---
+
 **/hospital-management-system
 ├── controllers
 │   ├── patientController.php
@@ -17,7 +26,6 @@
 │   └── ...
 ├── app.php
 └── config.php**
-
 
 **/hospital-management-system-client
 ├── public

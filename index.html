@@ -2,20 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mediplus</title>
+    <title>Women's Health Center</title>
+    
+    <!-- Meta tags -->
+    <meta name="description" content="Women's Health Center providing comprehensive healthcare services for women of all ages. Specializing in gynecology, obstetrics, and prenatal care.">
+    <meta name="keywords" content="women's health, healthcare, gynecology, obstetrics, prenatal care">
+    <meta name="author" content="daniel">
+    <meta name="robots" content="index, follow"> <!-- To allow search engines to index the site -->
+    
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Women's Health Center">
+    <meta property="og:description" content="Women's Health Center providing comprehensive healthcare services for women of all ages. Specializing in gynecology, obstetrics, and prenatal care.">
+    <meta property="og:image" content="https://ibb.co/BcnqHbF">
+    <meta property="og:url" content="https://ibb.co/BcnqHbF">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Women's Health Center">
+    <meta name="twitter:description" content="Women's Health Center providing comprehensive healthcare services for women of all ages. Specializing in gynecology, obstetrics, and prenatal care.">
+    <meta name="twitter:image" content="https://ibb.co/BcnqHbF">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <!-- ----------styles--------- -->
 <link rel="stylesheet" href="./assets/css/style.css">
+
+<!-- --------boxicon ----- -->
+       
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
      <!-- Preloader -->
      <div id="preloader">
         <div class="spinner"></div>
     </div>
+<!-- -----------navigation header--------- -->
+
+<nav class="navbar">
+    <div class="nav_container">
+        <h1 class="logo"><img src="./assets/img/logo.png" alt=""></h1>
+        <ul class="nav-links">
+            <li><a href="./index.php">Home</a></li>
+            <li><a href="./about.php">About Us</a></li>
+           
+            <li><a href="./contact.php">Contact</a></li>
+            <li class="dropdown">
+                <a href="#services">Staffs <i class='bx bxs-user-detail'></i></a>
+                <div class="dropdown-content">
+                
+                    <a href="#">Receptionist</a>
+                    <a href="#">Doctor </a>
+                    <a href="#">System Admin</a>
+                </div>
+            </li>
+           
+            <a  class="button" href="./appointment.php" > <li>Book Appointment</li></a>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ---------fullscreen image----- -->
+<div class="slider">
+    <div class="slides">
+        <!-- Radio buttons for navigation -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <!-- Slide images with write-ups -->
+        <div class="slide first">
+            <div class="image-container">
+                <img src="./assets/img/blog-sidebar1.jpg" alt="Image 1">
+            </div>
+            <div class="text-overlay">
+                <h2>Welcome to Women's Health Center</h2>
+                <p>Your health, our priority.</p>
+                <div class="buttons">
+                    <a href="#learn-more" class="btn">Learn More</a>
+                    <a href="#contact-us" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="image-container">
+                <img src="./assets/img/blog-sidebar2.jpg" alt="Image 2">
+            </div>
+            <div class="text-overlay">
+                <h2>Comprehensive Care</h2>
+                <p>From preventive care to specialized treatments.</p>
+                <div class="buttons">
+                    <a href="#services" class="btn">Our Services</a>
+                    <a href="#appointments" class="btn">Book Appointment</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="image-container">
+                <img src="./assets/img/pexels-karolina-grabowska-4047186.jpg" alt="Image 3">
+            </div>
+            <div class="text-overlay">
+                <h2>Experienced Doctors</h2>
+                <p>Our team of experts is here for you.</p>
+                <div class="buttons">
+                    <a href="#doctors" class="btn">Meet Our Doctors</a>
+                    <a href="#testimonials" class="btn">Testimonials</a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Automatic navigation -->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+ 
+        </div>
+    </div>
+
+    <!-- Manual navigation -->
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+      
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+</div>
 
 
 
